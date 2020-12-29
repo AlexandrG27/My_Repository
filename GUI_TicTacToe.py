@@ -133,7 +133,7 @@ def add_sign(n):
         elif total_turns % 2 == 1:
             lbl_result['text'] = 'Game over. 0 wins'
         lbl_turn['text'] = ''
-        playsound('C:\Sounds\win_sound.mp3', False)
+        playsound('win_sound.mp3', False)
 
     total_turns += 1
 
