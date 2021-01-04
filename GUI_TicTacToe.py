@@ -7,6 +7,9 @@ root.geometry('300x400')
 root.resizable(False, False)
 root.configure(background='#cc99ff')
 
+icon_pic = PhotoImage(file="tic-tac-toe.png")
+root.iconphoto(False, icon_pic)
+
 f = Frame(root, bg='#cc99ff')
 f.place(relwidth=1, relheight=0.8)
 
